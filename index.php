@@ -1,5 +1,5 @@
 <?php
 
-echo "Kapsch >>> - challenging limits"
+echo "Plansee ist spitze"
 
 ?>
