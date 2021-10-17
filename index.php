@@ -1,5 +1,5 @@
 <?php
 
-echo "Plansee ist spitze"
+echo "Hallo Welt"
 
 ?>
