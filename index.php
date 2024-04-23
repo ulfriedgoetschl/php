@@ -1,9 +1,9 @@
 <?php
 // Database credentials
-$hostname = parse_url(getenv('STACKHERO_MYSQL_HOST'));
-$username = parse_url(getenv('STACKHERO_MYSQL_USER'));
-$password = parse_url(getenv('STACKHERO_MYSQL_PASSWORD'));
-$dbname = parse_url(getenv('STACKHERO_MYSQL_USER'));
+$hostname = parse_url(getenv('MYSQL_HOST'));
+$username = parse_url(getenv('MYSQL_USER'));
+$password = parse_url(getenv('MYSQL_PASSWORD'));
+$dbname = parse_url(getenv('MYSQL_DBNAME'));
 
 // Connect to the database
 $conn = new mysqli($hostname, $username, $password, $dbname);
