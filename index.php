@@ -1,6 +1,6 @@
 <?php
 // Database credentials
-$hostname = parse_url(getenv('MYSQL_HOST'));
+$hostname = parse_url(getenv("MYSQL_HOST"));
 $username = parse_url(getenv('MYSQL_USER'));
 $password = parse_url(getenv('MYSQL_PASSWORD'));
 $dbname = parse_url(getenv('MYSQL_DBNAME'));
