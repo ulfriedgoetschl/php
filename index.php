@@ -1,9 +1,9 @@
 <?php
 // Database credentials
-$hostname = parse_url(getenv("MYSQL_HOST"));
-$username = parse_url(getenv('MYSQL_USER'));
-$password = parse_url(getenv('MYSQL_PASSWORD'));
-$dbname = parse_url(getenv('MYSQL_DBNAME'));
+$hostname = getenv("MYSQL_HOST");
+$username = getenv("MYSQL_USER');
+$password = getenv("MYSQL_PASSWORD');
+$dbname = getenv("MYSQL_DBNAME');
 
 // Connect to the database
 $conn = new mysqli($hostname, $username, $password, $dbname);
